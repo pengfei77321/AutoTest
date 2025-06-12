@@ -1,0 +1,28 @@
+# 通用忽略规则
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# 语言特定
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+.pytest_cache/
+
+# 编辑器
+.idea/
+.vscode/
+*.suo
+*.user
+
+# 环境
+.env
+*.key
+venv/
+.venv/
+
+# 测试输出文档
+report/
